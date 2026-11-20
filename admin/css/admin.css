@@ -1,0 +1,26 @@
+.urm-wrap .urm-table {
+	max-width: 1000px;
+	margin-top: 10px;
+}
+
+.urm-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.urm-badge.urm-active {
+	background: #d1f0d9;
+	color: #0a6b2a;
+}
+
+.urm-badge.urm-disabled {
+	background: #eee;
+	color: #666;
+}
+
+.urm-delete {
+	color: #b32d2e;
+}

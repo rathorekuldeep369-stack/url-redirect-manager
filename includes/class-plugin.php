@@ -8,9 +8,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 class Plugin {
 
 	/**
-	 * Start the plugin. Other classes will be loaded here in the next branches.
+	 * Create the classes and connect them together.
 	 */
 	public function init() {
-		// Hooks and classes go here.
+		$validator = new Validator();
+		$manager   = new Redirect_Manager( $validator );
+
+		$frontend = new Frontend( $manager );
+		$frontend->register();
+
+		if ( is_admin() ) {
+			$admin = new Admin( $manager );
+			$admin->register();
+		}
 	}
 }

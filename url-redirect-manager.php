@@ -1,4 +1,3 @@
-
 <?php
 /**
  * Plugin Name: URL Redirect Manager
@@ -25,10 +24,12 @@ define( 'URM_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
  * Include required classes.
  */
 require_once URM_PLUGIN_DIR . 'includes/class-activator.php';
-require_once URM_PLUGIN_DIR . 'includes/class-plugin.php';
 require_once URM_PLUGIN_DIR . 'includes/class-database.php';
 require_once URM_PLUGIN_DIR . 'includes/class-validator.php';
 require_once URM_PLUGIN_DIR . 'includes/class-redirect-manager.php';
+require_once URM_PLUGIN_DIR . 'includes/class-frontend.php';
+require_once URM_PLUGIN_DIR . 'includes/class-admin.php';
+require_once URM_PLUGIN_DIR . 'includes/class-plugin.php';
 
 /**
  * Register activation hook.
