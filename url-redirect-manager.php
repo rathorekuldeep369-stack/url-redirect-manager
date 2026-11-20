@@ -26,6 +26,7 @@ define( 'URM_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
  */
 require_once URM_PLUGIN_DIR . 'includes/class-activator.php';
 require_once URM_PLUGIN_DIR . 'includes/class-plugin.php';
+require_once URM_PLUGIN_DIR . 'includes/class-database.php';
 
 /**
  * Register activation hook.
