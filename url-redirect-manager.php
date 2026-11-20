@@ -28,6 +28,7 @@ require_once URM_PLUGIN_DIR . 'includes/class-activator.php';
 require_once URM_PLUGIN_DIR . 'includes/class-plugin.php';
 require_once URM_PLUGIN_DIR . 'includes/class-database.php';
 require_once URM_PLUGIN_DIR . 'includes/class-validator.php';
+require_once URM_PLUGIN_DIR . 'includes/class-redirect-manager.php';
 
 /**
  * Register activation hook.
