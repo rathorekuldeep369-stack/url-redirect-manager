@@ -12,5 +12,8 @@ A WordPress plugin to create and manage URL redirects from the admin dashboard.
 2. Activate it from Plugins in WordPress admin
 3. Go to the plugin's admin page to add redirects
 
+## Changelog
+- Added redirect logging (in progress)
+
 ## Author
 Kuldeep Singh
